@@ -148,9 +148,7 @@ app.get("/:customListName", function(req, res){
 
 //route for adding new items
 app.post("/", function(req, res){
-
-  console.log("hello");
-
+  
   const itemName = req.body.newItem;
 
   //we can tap in to list name inside this post route
